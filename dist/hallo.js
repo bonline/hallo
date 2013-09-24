@@ -1,7 +1,11 @@
 /* Hallo 1.0.4 - rich text editor for jQuery UI
 * by Henri Bergius and contributors. Available under the MIT license.
 * See http://hallojs.org for more information
-*/(function() {
+*/
+define(function () {
+    var jQuery = require("jquery");
+
+(function() {
   (function(jQuery) {
     return jQuery.widget('IKS.hallo', {
       toolbar: null,
@@ -3204,3 +3208,5 @@
   })(jQuery);
 
 }).call(this);
+
+});
