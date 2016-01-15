@@ -2,8 +2,7 @@
 * by Henri Bergius and contributors. Available under the MIT license.
 * See http://hallojs.org for more information
 */
-define(function () {
-    var jQuery = require("jquery");
+define(["require","jquery"],function (require, jQuery) {
 
 (function() {
   (function(jQuery) {
